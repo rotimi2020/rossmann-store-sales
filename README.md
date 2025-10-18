@@ -174,6 +174,51 @@ you can download the dataset which features the following key data fields:
 - Utilize this data to identify sales patterns, forecast future sales, or optimize promotional strategies<br>
   **[Download the dataset here](https://www.kaggle.com/competitions/rossmann-store-sales/data)**
 ---
+### 📦 Dataset Files (Hugging Face)
+
+Due to the large file size, all dataset components are hosted on Hugging Face.  
+You can access or download them directly using the links below:
+
+**🧹 Raw Data**
+> - **[📂 stored_cleaned.csv](https://huggingface.co/datasets/rotimi2020/rossmann_dataset/resolve/main/data/raw/stored_cleaned.csv)**  
+> - **[📂 train_cleaned.csv](https://huggingface.co/datasets/rotimi2020/rossmann_dataset/resolve/main/data/raw/train_cleaned.csv)**  
+> - **[📂 test_cleaned.csv](https://huggingface.co/datasets/rotimi2020/rossmann_dataset/resolve/main/data/raw/test_cleaned.csv)**  
+
+**⚙️ Processed Data**
+> - **[📂 train_store.csv](https://huggingface.co/datasets/rotimi2020/rossmann_dataset/resolve/main/data/processed/train_store.csv)**  
+> - **[📂 test_store.csv](https://huggingface.co/datasets/rotimi2020/rossmann_dataset/resolve/main/data/processed/test_store.csv)**  
+
+---
+
+### 🧭 Quick Overview
+
+**stored_cleaned.csv**  
+Store data cleaned and stored in SQL Server (MSSMS).  
+Includes both training and testing store information.
+
+---
+
+**train_cleaned.csv**  
+Cleaned version of the training dataset — ready for analysis and feature engineering.
+
+---
+
+**test_cleaned.csv**  
+Cleaned version of the test dataset — used for validation and performance evaluation.
+
+---
+
+**train_store.csv**  
+Merged dataset combining **train_cleaned.csv** with store details in Python (Jupyter Notebook).  
+Used for model training and exploration.
+
+---
+
+**test_store.csv**  
+Merged dataset combining **test_cleaned.csv** with store details.  
+Used for final testing and forecasting.
+
+---
 
 ## Data Processing & Cleaning
 Utilized SQL and Python to clean and transform data:
